@@ -52,5 +52,3 @@ def numberOfLines(widths, S):
         i += 1
 
     return row, sum
-
-git branch --set-upstream-to=origin/master master
