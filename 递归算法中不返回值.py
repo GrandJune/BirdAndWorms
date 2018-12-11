@@ -50,9 +50,5 @@ target = 18
 # nums = [-1,0,3,5,9,12]
 # target = 2
 s, e = 0,len(nums)-1
-<<<<<<< HEAD
-re = half_search(s,e,nums,target)
-=======
 re = half_search(s,e,nums,target)  # 写递归时，明明已经找到了解，却无法return，莫名其妙的错误
->>>>>>> origin/master
 print(re)
